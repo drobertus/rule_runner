@@ -1,0 +1,23 @@
+{
+  "name": "rule_runner",
+  "version": "1.0.0",
+  "description": "Business app driven by a rules engine rather than hard coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "rules",
+    "zoo-keeper",
+    "rules-engine"
+  ],
+  "author": "David Robertus <drobertus@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-rules": "^3.1.0",
+    "zookeeper": "^3.4.9-3"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3"
+  }
+}
