@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "node ./server",
+    "rr": "node ./lib/rule_handler",
     "test": "_mocha ./test"
   },
   "engines": {
@@ -20,9 +21,9 @@
   "dependencies": {
     "assert": "^1.4.1",
     "config": "^1.26.2",
+    "lodash": "^4.17.4",
     "node-rules": "^3.1.0",
-    "node-zookeeper-client": "^0.2.2",
-    "zookeeper": "^3.4.9-3"
+    "node-zookeeper-client": "^0.2.2"
   },
   "devDependencies": {
     "mocha": "^3.5.3"
